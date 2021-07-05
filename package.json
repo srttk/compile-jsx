@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"npm run build:page1 && npm run build:page2",
-    "build:page1":"babel ./src/page1/app.js -d dist/page1",
-    "build:page2":"babel ./src/page2/app.js -d dist/page2"
+    "build:page1":"babel ./src/page1/ -d dist/page1",
+    "build:page2":"babel ./src/page2/ -d dist/page2"
   },
   "keywords": [],
   "author": "Sarath",
